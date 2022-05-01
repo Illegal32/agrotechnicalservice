@@ -1,7 +1,6 @@
 package az.iktlab.agrotechnicalservice.Service;
 
-import az.iktlab.agrotechnicalservice.model.AGRO_SERVICES;
-import az.iktlab.agrotechnicalservice.model.CodeBeautify;
+import az.iktlab.agrotechnicalservice.dao.model.CodeBeautify;
 
 public interface AgroService {
 

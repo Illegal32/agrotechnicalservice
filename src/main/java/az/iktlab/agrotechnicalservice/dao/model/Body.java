@@ -1,5 +1,6 @@
-package az.iktlab.agrotechnicalservice.model;
+package az.iktlab.agrotechnicalservice.dao.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -11,6 +12,7 @@ import java.util.ArrayList;
 @AllArgsConstructor
 public class Body {
 
+    @JsonProperty("AGRO_SERVICE")
     ArrayList<Object> AGRO_SERVICE;
 
 }

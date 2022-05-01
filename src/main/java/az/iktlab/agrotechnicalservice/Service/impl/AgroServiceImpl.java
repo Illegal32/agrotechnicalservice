@@ -2,7 +2,7 @@ package az.iktlab.agrotechnicalservice.Service.impl;
 
 import az.iktlab.agrotechnicalservice.Service.AgroService;
 import az.iktlab.agrotechnicalservice.client.AgroServiceClient;
-import az.iktlab.agrotechnicalservice.model.CodeBeautify;
+import az.iktlab.agrotechnicalservice.dao.model.CodeBeautify;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

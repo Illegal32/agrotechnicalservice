@@ -1,7 +1,7 @@
 package az.iktlab.agrotechnicalservice.controller;
 
 import az.iktlab.agrotechnicalservice.Service.AgroService;
-import az.iktlab.agrotechnicalservice.model.CodeBeautify;
+import az.iktlab.agrotechnicalservice.dao.model.CodeBeautify;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -16,5 +16,4 @@ public class AgroServiceNamesController {
     public CodeBeautify getAgro() {
         return service.getAgroServices();
     }
-
 }
