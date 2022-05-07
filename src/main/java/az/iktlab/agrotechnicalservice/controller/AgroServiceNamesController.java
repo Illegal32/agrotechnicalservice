@@ -1,6 +1,6 @@
 package az.iktlab.agrotechnicalservice.controller;
 
-import az.iktlab.agrotechnicalservice.Service.AgroService;
+import az.iktlab.agrotechnicalservice.service.AgroService;
 import az.iktlab.agrotechnicalservice.dao.model.CodeBeautify;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

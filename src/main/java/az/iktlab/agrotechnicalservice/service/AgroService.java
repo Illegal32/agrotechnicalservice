@@ -1,4 +1,4 @@
-package az.iktlab.agrotechnicalservice.Service;
+package az.iktlab.agrotechnicalservice.service;
 
 import az.iktlab.agrotechnicalservice.dao.model.CodeBeautify;
 

@@ -15,4 +15,6 @@ public class AGRO_SERVICES {
     @JsonProperty("body")
     Body body;
 
+    //codeBeauty.getArgoService.getBody()co
+
 }
