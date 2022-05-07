@@ -36,6 +36,7 @@ public class AccountServiceImpl implements AccountService {
         request.setPassword(encoder.encode(request.getPassword()));
 
         UsersModel account = accountMapper.accountRequestDTOtoAccount(request);
+
         if (usersRepository.existsByUsername(account.getUsername())) {
             throw new DuplicateFieldException(String.format("Username: %s is exists", account.getUsername()));
         } else if (usersRepository.existsByEmail(account.getEmail())) {
